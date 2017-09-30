@@ -68,11 +68,14 @@
 
 		function sendmessage( $id ){
 
-			console.log($( ".messagebox" ).children().eq(-2));
-			$.post( "ajax.php", {
+			if ($( ".messagebox" ).children().eq(-2) .prop("tagName")!="SPAN")
+			{ 
+				$.post( "ajax.php", {
 				id: $id }, function ( data ) {
 				$( ".messagebox" ).append( data );
 			}, "" );
+			}
+			
 		};
 
 		function sendemoji( $id ){

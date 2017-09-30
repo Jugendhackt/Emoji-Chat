@@ -7,6 +7,7 @@
     width: 750px;
     color: #FFFFFF;
     background: #373737;
+	
 }
 
 .emojibox {
@@ -37,6 +38,7 @@
     width: 750px;
     color: #FFFFFF;
     background: #373737;
+	overflow: scroll;
 }
 
 .invisiblebox {

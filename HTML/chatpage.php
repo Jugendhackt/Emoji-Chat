@@ -17,7 +17,7 @@
 		
 		<div class="messagebox">
 		</div>
-		<div class="chatbox">	
+		<div class="chatbox">
 		</div>
 		<div class="emojibox">
 		<?php

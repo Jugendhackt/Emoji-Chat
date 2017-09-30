@@ -1,0 +1,9 @@
+input[type=submit] {
+    width: 20em;
+    height: 4em;
+    font-family: impact;
+    font-size: 2em;
+    background-color: white;
+    border-color: black;
+    border-width: 4px;
+}

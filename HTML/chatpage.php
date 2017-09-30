@@ -20,6 +20,15 @@
 		<div class="chatbox">	
 		</div>
 		<div class="emojibox">
+		<?php
+		include("config.php");
+		
+		$sql = "SELECT * FROM `emojis`";
+		$erg = mysqli_query($dbconnect,$sql);
+		while($row = mysqli_fetch_array($erg)){
+			echo $row['code']."<br>";
+		}
+		?>
 		</div>
 		<div class="questionbox">
 		</div>

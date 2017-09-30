@@ -16,7 +16,7 @@ if(isset($_POST['id'])){
     $sql = "SELECT * FROM `fragen` WHERE id=".$_POST['id'];
     $erg = mysqli_query($dbconnect,$sql);
     while($row = mysqli_fetch_array($erg)){
-        $text = $row['frage']."<br>\r\n";
+        $text = "<span>".$row['frage']."</span><br>\r\n";
     }
 
     file_put_contents( "chat.txt", $text, FILE_APPEND);

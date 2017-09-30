@@ -68,7 +68,7 @@
 
 		function sendmessage( $id ){
 
-			console.log($( ".messagebox" ).children().last());
+			console.log($( ".messagebox" ).children().eq(-2));
 			$.post( "ajax.php", {
 				id: $id }, function ( data ) {
 				$( ".messagebox" ).append( data );

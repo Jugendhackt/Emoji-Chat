@@ -33,3 +33,15 @@ Buch oder Film<br>
 &#128573;<br>
 &#9999;<br>
 Berge oder Meer?<br>
+Liest du gerne?<br>
+Berge oder Meer?<br>
+<span>Berge oder Meer?</span><br>
+<span>Einkaufscenter oder Onlineshop?</span><br>
+<span>Einkaufscenter oder Onlineshop?</span><br>
+&#128586; <br>
+&#128586; <br>
+&#128586; <br>
+&#128586; <br>
+&#128586; <br>
+&#128586; <br>
+<span>OSX,Linux oder Windows?</span><br>

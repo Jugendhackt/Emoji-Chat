@@ -6,9 +6,9 @@
         <form action="update.php" method="post">
             Frage:<br>
             <input type="text" name="question" placeholder="Wie geht es dir?"><br><br>
-            <select>
+            <select name="category">
             <?php
-                include("config.php");#
+                include("config.php");
                 $sql = "SELECT * FROM `kategorien` ";
                 $erg = mysqli_query( $dbconnect, $sql );
                 while($row = mysqli_fetch_array($erg)) {
@@ -16,8 +16,6 @@
                 }
             ?>
             </select>
-            Kategorie:<br>
-            <input type="text" name="category" placeholder="Begrüßung"><br><br>
             <input type="submit" value="Eintragen">
         </form>
 

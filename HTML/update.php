@@ -1,9 +1,9 @@
 <?php
 include("config.php");
 
-if(!empty($_POST['question'])){
+if(!empty($_POST['emoji'])){
 
-	$sql = "INSERT INTO `fragen`(`frage`,`kategorie`) VALUES ('".$_POST['question']."','".$_POST['category']."')";
+	$sql = "INSERT INTO `emoji`(`code`,`name`) VALUES ('".$_POST['emoji']."','".$_POST['name']."')";
 	mysqli_query( $dbconnect, $sql );
 
 	header("location:auslesen.php");

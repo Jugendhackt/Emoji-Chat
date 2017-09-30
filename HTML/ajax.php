@@ -26,9 +26,9 @@ if(isset($_POST['idemoji'])){
     $sql = "SELECT * FROM `emojis` WHERE id=".$_POST['idemoji'];
     $erg = mysqli_query($dbconnect,$sql);
     while($row = mysqli_fetch_array($erg)){
-        $text = $row['code']."<br>";
+        $text = $row['code']."<br>\r\n";
     }
-
+    file_put_contents("chat.txt",$text,FILE_APPEND);
     echo $text;
 }
 

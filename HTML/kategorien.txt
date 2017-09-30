@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `kategorien` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;
+
+
+
+INSERT INTO `kategorien` (`id`, `name`) VALUES
+(1, 'Begrüßung'),
+(2, 'Freizeit/Interessen'),
+(3, 'Entweder oder'),
+(4, 'Lieblings...'),
+(5, 'Arbeit'),
+(6, 'Familie');

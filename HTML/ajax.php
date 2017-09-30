@@ -32,5 +32,10 @@ if(isset($_POST['idemoji'])){
     file_put_contents("chat.txt",$text,FILE_APPEND);
     echo $text;
 }
+if(isset($_POST['refresh'])){
+    echo file_get_contents("chat.txt");
+}
 
+    
+   
 ?>

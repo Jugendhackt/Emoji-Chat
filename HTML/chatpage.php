@@ -80,6 +80,16 @@
 				$( ".messagebox" ).append( data );
 			}, "" );
 		};
+
+		function refresh(){
+			$.post( "ajax.php", {
+				refresh: 1 }, function ( data ) {
+				$( ".messagebox" ).html( data );
+			}, "" );
+		};
+		setInterval(refresh,500);
+
+
 </script>
   </body>
 </html>

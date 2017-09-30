@@ -67,6 +67,8 @@
 		} );
 
 		function sendmessage( $id ){
+
+			console.log($( ".messagebox" ).children().last());
 			$.post( "ajax.php", {
 				id: $id }, function ( data ) {
 				$( ".messagebox" ).append( data );

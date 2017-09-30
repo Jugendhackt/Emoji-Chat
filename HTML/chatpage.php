@@ -89,6 +89,7 @@
 			$.post( "ajax.php", {
 				refresh: 1 }, function ( data ) {
 				$( ".messagebox" ).html( data );
+				$(".messagebox").scrollTop($(".messagebox")[0].scrollHeight);
 			}, "" );
 		};
 		setInterval(refresh,500);

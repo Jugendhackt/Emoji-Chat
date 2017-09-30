@@ -1,0 +1,43 @@
+Begrüßung:
+-Hallo
+-Guten Tag 
+-Wie geht´s dir?
+
+Freizeit/Interessen:
+-Für was interessierst du dich?
+-Was has du für Hobbies?
+-Liest du gerne?
+-Was liest du?
+-Magst du Einhörner?
+-Was regt dich auf?
+
+Entweder oder:
+-Party oder zuhause?
+-Langschläfer oder früher Vogel?
+-Berge oder Meer?
+-Buch oder Film?
+-Hose oder Rock?
+-Gesellschaft oder Technik?
+-OSX,Linux oder Windows?
+-Einkaufscenter oder Onlineshop?
+
+Lieblings...:
+-Was ist deine Lieblingsfrucht?
+-Was ist dein Lieblingsessen?
+-Was ist dein Lieblingstier?
+-Was ist deine Liebligsfarbe?
+-Was ist deine Lieblingshausarbeit?
+-Was ist dein Lieblingsfach?
+-Was ist deine Lieblingskleidung?
+  
+Arbeit:
+-Gehst du zur Schule?
+-Was arbeitest du?
+
+Familie:
+-Hast du Geschwister?
+-Wohnst du zuhause?
+-Hast du Haustiere?
+-Hast du Kinder?
+-Bist du verheiratet?
+

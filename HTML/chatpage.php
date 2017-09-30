@@ -26,7 +26,7 @@
 		$sql = "SELECT * FROM `emojis`";
 		$erg = mysqli_query($dbconnect,$sql);
 		while($row = mysqli_fetch_array($erg)){
-			echo $row['code']."<br>";
+			echo "<a class='emoji' onclick='sendemoji(".$row['id'].")' >".$row['code']."</a><br>";
 		}
 		?>
 		</div>
@@ -67,6 +67,19 @@
 			}, "" );
 		} );
 
+		function sendmessage( $id ){
+			$.post( "ajax.php", {
+				id: $id }, function ( data ) {
+				$( ".messagebox" ).append( data );
+			}, "" );
+		};
+
+		function sendemoji( $id ){
+			$.post( "ajax.php", {
+				idemoji: $id }, function ( data ) {
+				$( ".messagebox" ).append( data );
+			}, "" );
+		};
 </script>
   </body>
 </html>

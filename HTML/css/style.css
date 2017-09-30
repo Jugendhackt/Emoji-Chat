@@ -41,22 +41,35 @@
     height: 100px;
 }
 
-input[type=submit] {
-    width: 20em;
-    height: 4em;
-    font-family: impact;
-    font-size: 2em;
+/*input[type=submit] {
+    width: 100px;
+	margin-left: 1000px;
+	margin-top: 5px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 10px;
     background-color: white;
     border-color: black;
-    border-width: 4px;
-}
+    border-width: 2px;
+}*/
 
 
 /* DROPDOWN/SELECT */
 
-.questions {}
+.questions {
+	font-size: 20px;
+}
 
 
 /* EINZELNEN FRAGEN */
 
-.fragen {}
+.fragen {
+	font-family: arial;
+	font-size: 18px;
+	color: white;
+}
+
+.emoji{
+	font-size: 25px;
+	text-decoration: none;
+}

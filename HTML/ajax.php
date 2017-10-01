@@ -33,7 +33,12 @@ if(isset($_POST['idemoji'])){
     echo $text;
 }
 if(isset($_POST['refresh'])){
-    echo file_get_contents("chat.txt");
+    if(file_exists("chat.txt"))
+    {
+        echo file_get_contents("chat.txt");
+    }
+
+    
 }
 
     
